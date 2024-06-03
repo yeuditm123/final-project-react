@@ -1,0 +1,123 @@
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.mySelectOptions {
+  margin-top: 80%;
+}
+.button-link {
+  margin: 0 10px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f8f8f3;
+}
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'cursive';
+  color: #714618;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.profile-name:hover {
+  color: rgb(184, 183, 93);
+}
+
+.home {
+  margin-left: 70px;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+}
+.profile {
+  margin-left: 30px;
+  height: 25px;
+  width: 25px;
+  margin-top: 8px;
+}
+.managerSettingsIcon {
+  margin-left: 35px;
+  margin-top: 6px;
+}
+.manager {
+  margin-left: 75px;
+  height: 24px;
+  width: 24px;
+  margin-top: 14px;
+}
+.homeIcon,
+.profileIcon,
+.managerSettingsIcon {
+  font-size: 60px;
+  color: #714618;
+}
+.homeIcon:hover,
+.profileIcon:hover,
+.managerSettingsIcon:hover {
+  color: rgb(184, 183, 93);
+}
+.link:hover {
+  color: rgb(184, 183, 93);
+  border: 1px solid rgb(184, 183, 93);
+}
+
+.divRoot {
+  display: flex;
+  height: 20%;
+}
+
+.linkes {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #714618;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logout-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #714618;
+  font-family: 'cursive';
+}
+
+.logout-text:hover {
+  color: rgb(184, 183, 93);
+}
+
+.logoutIcon {
+  font-size: 24px;
+  color: #714618;
+}
+
+.logoutIcon:hover {
+  color: rgb(184, 183, 93);
+}
+
+.logout:hover {
+  background-color: #f8f8f8f3;
+}
+
+.logout {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

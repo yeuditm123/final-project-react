@@ -1,0 +1,19 @@
+.add-style input {
+  width: 200px;
+}
+.title {
+  color: rgb(184, 183, 93);
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.submitButton {
+  font-size: x-large;
+  background-color: rgb(184, 183, 93);
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.add-input {
+  border: 1px solid black;
+}

@@ -1,0 +1,26 @@
+{
+  // EDITOR CONFIGURATION
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  // ESLINT CONFIGURATION
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "javascriptreact"],
+
+  // LANGUAGE CONFIGURATION
+  "css.validate": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#08360C",
+    "titleBar.activeBackground": "#0B4B10",
+    "titleBar.activeForeground": "#F3FDF4"
+  }
+}

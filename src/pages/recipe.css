@@ -1,0 +1,31 @@
+h3 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  margin: 15px 0 !important;
+}
+
+.recipe-name {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 5px 0;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.preparation-step {
+  padding: 5px 0;
+  color: #714618;
+}
+
+
+.ant-layout-sider {
+  margin-left: 0; 
+}
+

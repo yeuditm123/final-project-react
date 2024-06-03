@@ -1,0 +1,13 @@
+.centered-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%; /* Ensure centering within the entire viewport */
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  /* .centered-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */

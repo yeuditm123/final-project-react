@@ -1,0 +1,12 @@
+.sticky-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f6f6f6;
+  color: white;
+  text-align: center;
+}
+.ant-layout-footer{
+padding: 0px;
+}

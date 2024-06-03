@@ -1,0 +1,23 @@
+.about-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+margin: 20px auto;
+    max-width: 1000px;
+}
+
+.about-container h2 {
+  color: #333;
+}
+.aboutHeader{
+  color: #714618;
+}
+.about-container p {
+  margin-bottom: 10px;
+}
+
+.about-container .btn {
+  margin-top: 20px;
+}
+

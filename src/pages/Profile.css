@@ -1,0 +1,97 @@
+.no-liked-recipes {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 20px;
+  color: #070707;
+}
+
+.no-liked-recipes p {
+  margin-bottom: 10px;
+}
+
+
+
+.login-message {
+  /* background-image: url("https://touchfood.co.il/wp-content/uploads/2019/04/%D7%A7%D7%99%D7%A0%D7%95%D7%97%D7%99%D7%9D-%D7%9C%D7%A4%D7%A1%D7%97-Medium.jpg"); */
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+
+.login-message::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.login-message img {
+  display: none;
+}
+
+.login-message h2 {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  line-height: 1.2;
+  color: white; 
+}
+
+.login-message p {
+  font-size: 24px;
+  margin: 10px 0;
+  position: relative;
+  z-index: 1;
+  line-height: 1.5;
+  color: white; }
+
+.login-message a {
+  background-color: #f00; 
+  color: #fff;
+   padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  line-height: 1.5;
+}
+
+.login-message a:hover {
+  background-color: #d
+}
+
+.liked-recipes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1400px; 
+  justify-content: center; 
+}
+
+
+.recipe-card {
+  min-width: 300px;
+
+  @media (min-width: 992px) {
+    width: 25%;
+  }
+
+  @media (max-width: 991px) {
+    width: 33.33%;
+  }
+}
+

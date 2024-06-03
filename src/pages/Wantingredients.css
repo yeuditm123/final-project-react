@@ -1,0 +1,29 @@
+.rButton:hover {
+  border: 2px solid rgb(112, 78, 24);
+  color: rgb(112, 78, 24);
+  background-color: rgb(184, 183, 93);
+}
+.rButton {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 240px;
+  margin-bottom: 70px;
+  border: 3.5px solid rgb(112, 78, 24);
+  color: rgb(112, 78, 24);
+  height: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.dropDown {
+  color: rgb(184, 183, 93);
+  margin-left: 10px;
+  font-size: x-large;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.IngredientsDiv {
+  margin-top: 80px;
+}
+.p {
+  font-size: 300px;
+}

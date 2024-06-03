@@ -1,0 +1,49 @@
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://foodislife.co.il/wp-content/uploads/2023/05/pistachio-macaroons-dessert-white-background-top-view.jpg');
+    background-size: cover;
+    background-position: center;
+    color: "#714618"
+
+}
+
+.welcome-header {
+    font-size: 1.5em; 
+    
+}
+
+.login-container {
+    display: grid;
+    gap: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+}
+
+.label-input-container {
+    display: grid;
+    gap: 10px;
+}
+
+.registration-link {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.ant-input {
+    width: 100%;
+}

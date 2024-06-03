@@ -1,0 +1,8 @@
+.starsRating{
+    /* border: 5px solid red; */
+}
+.stars{
+    display: flex;
+    justify-content: center;
+
+}

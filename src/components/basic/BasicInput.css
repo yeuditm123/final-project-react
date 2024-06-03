@@ -1,0 +1,10 @@
+.auto-width{
+    width: auto;
+}
+.content-width{
+    width: fit-content;
+    min-width: 10%;
+}
+.present-25{
+    width: 25%;
+}
